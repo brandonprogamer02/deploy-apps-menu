@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MAESTRO APP</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="container mt-15 d-flex">
+      <form action="" class="w-50">
+        <div class="card mr-20">
+          <div class="card-header">
+            <h2 class="text-center">APLICACION MAESTROS MINERD</h2>
+          </div>
+          <div class="card-body">
+            <div class="form-group">
+              <label> Cedula: </label>
+              <input
+                type="text"
+                id="cedula"
+                class="form-control"
+                placeholder="Introduce tu cedula..."
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Correo: </label>
+              <input
+                type="text"
+                id="correo"
+                class="form-control"
+                placeholder="Introouce el correo..."
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Escuela que imparte docencia: </label>
+              <input
+                type="text"
+                id="escuela"
+                class="form-control"
+                placeholder="Introduce la escuela en la que imparte clases"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>Foto del maestro recibiendo equipo:</label>
+              <input
+                type="text"
+                id="foto"
+                class="form-control"
+                placeholder="Introduce la foto del maestro recibiendo equipo"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Descripcion del equipo:</label>
+              <textarea
+                class="form-control"
+                placeholder="Introduce la descripcion del equipo"
+                id="descripcion-equipo"
+                rows="3"
+              ></textarea>
+              <img src="" width="300" id="imagen" "/>
+              <input type="file" id="cargar-imagen" />
+              
+            </div>
+            <input type="button" id="guardar" value="Guardar"/>
+          </div>
+          
+        </div>
+      </form>
+      
+      <div class="table mt-4">
+        <table class="table table-striped ">
+          
+              <thead>
+                  <th scope="col">Maestros </th>
+              </thead>
+              
+              <!--
+              <tr>
+                <td><span>Juan Sanchez Sanchez</span></td>
+               
+              </tr>
+              -->
+
+          </table>
+          <input type="button" value="Imprimir Informacion" id="boton-imprimir-info"/>
+      </div>
+      
+    </div>
+
+    <script src = "script.js"></script>
+  </body>
+</html>
