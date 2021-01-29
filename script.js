@@ -3,3 +3,4 @@ document.querySelector('#practica-crud-html-css-js').addEventListener('click', (
 document.querySelector('#aplicacion-maestros-minerd').addEventListener('click', () => open('proyecto1_duncar_amadis/index.html'));
 document.querySelector('#quizzes-app').addEventListener('click', () => open('quizzes-app/index.html'));
 document.querySelector('#gesty-app').addEventListener('click', () => open('gesty-app/index.html'));
+document.querySelector('#gesty-app').addEventListener('click', () => open('maquetaciones-responsive/index.html'));
