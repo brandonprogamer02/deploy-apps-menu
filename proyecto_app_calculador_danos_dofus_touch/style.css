@@ -1,4 +1,4 @@
-/* body{
+body{
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
@@ -6,7 +6,7 @@
     background: url(dofus-image.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
-} */
+}
 #boton{
     
     display: block;
