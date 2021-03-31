@@ -4,3 +4,4 @@ document.querySelector('#aplicacion-maestros-minerd').addEventListener('click', 
 document.querySelector('#quizzes-app').addEventListener('click', () => open('https://brandox-quizz-app.netlify.app/'));
 document.querySelector('#gesty-app').addEventListener('click', () => open('https://gesty-app.netlify.app/'));
 document.querySelector('#layouts-responsive').addEventListener('click', () => open('https://layouts-responsive.netlify.app/'));
+document.querySelector('#generate-stadistic-table-google-form').addEventListener('click', () => open('https://generate-stadistic-tables.herokuapp.com/'));
