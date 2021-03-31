@@ -13,6 +13,7 @@ const get_dano_bruto = () =>
 }
 
 document.getElementById('boton').addEventListener('click',get_dano_bruto);
+
 document.addEventListener('keypress', evt =>{
     if(evt.keyCode == 13) get_dano_bruto();
 });

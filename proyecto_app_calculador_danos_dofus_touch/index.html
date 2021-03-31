@@ -6,50 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de Danos Dofus Touch</title>
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <script async src="app.js"></script>
 </head>
 
 <body>
+    <div class='container'>
+        <div class=" row">
+            <main class="  col-10 col-lg-6">
+                <h1>Calculadora de Danos Dofus Touch</h1>
+                <table class="py-5">
+                    <tr class='responsive py-2 border'>
+                        <span>Daño del hechizo</span>
+                        <input type="number" id="dano_hechizo" autocomplete="off">
+                    </tr>
+                    <br>
+                    <tr class='responsive'>
+                        <span>Puntos de Stats</span>
+                        <input type="number" id="stats" autocomplete="off">
+                    </tr>
+                    <br>
 
-    <main>
-        <h1>Calculadora de Danos Dofus Touch</h1>
-        <form action="">
-            <table>
-                <tr>
-                    <td>Daño del hechizo</td>
-                    <td><input type="number" id="dano_hechizo" autocomplete="off"></td>
-                </tr>
-                <tr>
-                    <td>Puntos de Stats</td>
-                    <td><input type="number" id="stats" autocomplete="off"></td>
-                </tr>
-                <tr>
-                    <td>Potencia</td>
-                    <td><input type="number" id="potencia" autocomplete="off"></td>
-                </tr>
-                <tr>
-                    <td>Daños</td>
-                    <td> <input type="number" id="danos_fijos" autocomplete="off"> </td>
-                </tr>
-                <tr>
-                    <td>
+                    <tr class='responsive'>
+                        <span>Potencia</span>
+                        <input type="number" id="potencia" autocomplete="off">
+                    </tr>
+                    <br>
+                    <tr class='responsive'>
+                        <span>Daños</span> 
+                        <input type="number" id="danos_fijos" autocomplete="off">
+                    </tr>
+                    <tr class='responsive'>
+                        
                         <input type="button" id="boton" value="Calcular Daño" style="height: auto;">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p id="resultadoTexto">Resultado</p>
-                    </td>
-                    <td>
-                        <input type="text" id="resultado" readonly>
-                    </td>
+                    </tr>
+                    <tr class='responsive'>
+                        <span>
+                            <p id="resultadoTexto">Resultado</p>
+                        </span>
+                        <span>
+                            <input type="text" id="resultado" readonly>
+                        </span>
+                    </tr>
 
-                </tr>
-            </table>
-        </form>
+                </table>
 
-        <script src="app.js"></script>
 
-    </main>
+
+            </main>
+        </div>
+
+    </div>
 
 </body>
 
