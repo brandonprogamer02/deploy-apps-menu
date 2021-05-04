@@ -5,3 +5,4 @@ document.querySelector('#quizzes-app').addEventListener('click', () => open('htt
 document.querySelector('#gesty-app').addEventListener('click', () => open('https://gesty-app.netlify.app/'));
 document.querySelector('#layouts-responsive').addEventListener('click', () => open('https://layouts-responsive.netlify.app/'));
 document.querySelector('#generate-stadistic-table-google-form').addEventListener('click', () => open('https://generate-stadistic-tables.herokuapp.com/'));
+document.querySelector('#chat-app').addEventListener('click', () => open('https://brandox-chat-app-frontend.herokuapp.com/'));
